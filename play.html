@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet"  text="text/css" href="style.css">
+    <script>alert("Bumping Car!!! You can also play this game with keyboard. Do you want to play this game so press OK");</script>
+</head>
+<body onload="Load();">
+        <center><div id="board">
+        <label>Score:</label>
+        <label id="updatescore">0</label>
+        <button onclick="togglestop(this);">&#10074;&#10074;</button>        
+    </div>
+<canvas id="mycanvas"></canvas>
+    <div id="controls">
+        <button onclick="moveLeft();">&larr;</button>
+        <button onclick="moveRight();">&rarr;</button>
+    </div></center>
+<!--Screens-->
+
+
+<section>
+    <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+</section>
+<div class="screen" id="Waitscreen" >
+    <label>Wait Loading images</label>
+</div>
+<div class="screen" id="startingscreen">
+    <button onclick="startGame();" class="funkybutton">Play</button><br></div>
+    <div class="screen" id="gameoverscreen" style="display: none;">
+        <label id="finalscore">0</label><br>
+        <button onclick="restartGame();" class="funkybutton">Restart</button><br></div>
+
+</body>
+<script  src="script.js" text="text/JavaScript"></script>
+</html>
