@@ -25,5 +25,7 @@ To play the game, I must follow these steps:-
 •	There is no concept of lives, once your car collides to another vehicle, the game overs here.
 
 •	At the end you’ll see the GAME OVER!!! Message and the RESTART BUTTON.
+<hr>
+you can read full documentation of this project here
 
-
+[FINAL Project.pdf](https://github.com/ashish3281/CAR-COLLISION-GAME/files/10106037/FINAL.Project.pdf)
